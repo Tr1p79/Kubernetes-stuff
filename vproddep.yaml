@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: vprodb
-  #namespace: test
+  namespace: test
   labels:
     app: vprodb
 spec:
